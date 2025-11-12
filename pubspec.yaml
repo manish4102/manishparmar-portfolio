@@ -1,0 +1,72 @@
+name: portfolio_website
+description: A beautiful Flutter portfolio website with Firebase integration.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.17.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Firebase
+  firebase_core: ^2.24.2
+  cloud_firestore: ^4.13.6
+  lottie: ^3.3.1
+  video_player: ^2.7.0
+  url_launcher: ^6.3.2
+  http: ^1.6.0
+  flutter_email_sender: ^8.0.0
+  
+  # UI & Animations
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/sample.mp4
+    - assets/home_back.jpg
+    - assets/home_1.jpg
+    - assets/home_2.jpg
+    - assets/Card_1.jpg
+    - assets/card_2.jpg
+    - assets/Card_3.jpg
+    - assets/Card_4.jpg
+    - assets/Card_5.jpg
+    - assets/me.jpg
+    - assets/me_1.png
+    - assets/svb.jpg
+    - assets/Ganak.jpg
+    - assets/Undergrad.jpg
+    - assets/edunet.jpg
+    - assets/yg.jpg
+    - assets/cec.jpg
+    - assets/baclub.jpg
+    - assets/linkedin.jpg
+    - assets/location.jpg
+    - assets/github.jpg
+    - assets/gmail.jpg
+    - assets/resume.jpg
+    - assets/background.jpg
+    - assets/store-alt.png
+    - assets/Manish_Parmar_Resume.pdf
+
+  
+  # Add custom fonts here if you want to use Poppins font
+  # fonts:
+  #   - family: Poppins
+  #     fonts:
+  #       - asset: fonts/Poppins-Regular.ttf
+  #       - asset: fonts/Poppins-Bold.ttf
+  #         weight: 700
+
+  
