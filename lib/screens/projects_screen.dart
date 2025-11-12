@@ -59,7 +59,7 @@ class Projects extends StatelessWidget {
                             description:
                                 '• Applied TensorFlow + SHAP to model financial risks, achieving 92% prediction accuracy.\n'
                                 '• Designed Power BI dashboards for risk simulation, reducing analysis time by 40%.',
-                            githubUrl: 'https://github.com/manish4102/SVB-Analysis',
+                            githubUrl: 'https://github.com/manish4102',
                             ieeeUrl: 'https://ieeexplore.ieee.org/document/10511378',
                           ),
                           SizedBox(height: 30),
