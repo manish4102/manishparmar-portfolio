@@ -64,7 +64,7 @@ class Projects extends StatelessWidget {
                           ),
                           SizedBox(height: 30),
                           HoverImageCard(
-                            image: 'assets/ganak.jpg',
+                            image: 'assets/Ganak.jpg',
                             title: 'Ganak - Inventory Management System',
                             description:
                                 '• Real-time inventory tracking with Flutter + Firebase.\n'
